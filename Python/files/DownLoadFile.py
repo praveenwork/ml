@@ -10,3 +10,5 @@ def download_file(url, filepath):
 
 # BBC DataSet
 download_file("https://storage.googleapis.com/laurencemoroney-blog.appspot.com/bbc-text.csv"    , "../nlp/bbc-text.csv")
+
+
