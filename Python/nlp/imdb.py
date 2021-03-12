@@ -18,6 +18,9 @@ testing_sentence = []
 testing_labels = []
 training_labels = []
 
+print(len(training_data))
+print(len(testing_data))
+
 for s, l in training_data:
     training_sentences.append(s.numpy().decode('utf8'))
     training_labels.append(l.numpy())
